@@ -1,0 +1,1 @@
+﻿package aph.grids {   import flash.geom.Point;  	public interface Grid {     	function tilePosition(gp:GridPoint):Point; 		function tileCenter(gp:GridPoint):Point;		function toTile(p:Point):GridPoint;		function contains(gp:GridPoint):Boolean;		function get rows():int;	 	function get columns():int;  } } 
